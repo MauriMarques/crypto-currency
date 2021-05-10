@@ -9,7 +9,7 @@ class CryptoCurrencyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.grey,
         brightness: Brightness.dark,
-        accentColor: Colors.redAccent,
+        accentColor: Colors.white,
       ),
       onGenerateRoute: nav.Router().generateRoute,
       initialRoute: nav.Routes.home,

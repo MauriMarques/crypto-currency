@@ -8,7 +8,9 @@ class Router {
   Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
       case Routes.home:
-        return MaterialPageRoute(builder: (_) => CryptoCurrencyListScreen());
+        return MaterialPageRoute(
+          builder: (_) => CryptoCurrencyListScreen(),
+        );
       case Routes.details:
         return MaterialPageRoute(
           builder: (_) => CryptoCurrencyDetailScreen(
