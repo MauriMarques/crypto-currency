@@ -1,0 +1,131 @@
+import 'dart:convert';
+
+import 'package:http/http.dart';
+
+final cryptoCurrencies200Response = Response(
+  json.encode(
+    {
+      "data": [
+        {
+          "id": 1,
+          "name": "Bitcoin",
+          "symbol": "BTC",
+          "slug": "bitcoin",
+          "num_market_pairs": 9542,
+          "date_added": "2013-04-28T00:00:00.000Z",
+          "tags": [
+            "mineable",
+            "pow",
+            "sha-256",
+            "store-of-value",
+            "state-channels",
+            "coinbase-ventures-portfolio",
+            "three-arrows-capital-portfolio",
+            "polychain-capital-portfolio",
+            "binance-labs-portfolio",
+            "arrington-xrp-capital",
+            "blockchain-capital-portfolio",
+            "boostvc-portfolio",
+            "cms-holdings-portfolio",
+            "dcg-portfolio",
+            "dragonfly-capital-portfolio",
+            "electric-capital-portfolio",
+            "fabric-ventures-portfolio",
+            "framework-ventures",
+            "galaxy-digital-portfolio",
+            "huobi-capital",
+            "alameda-research-portfolio",
+            "a16z-portfolio",
+            "1confirmation-portfolio",
+            "winklevoss-capital",
+            "usv-portfolio",
+            "placeholder-ventures-portfolio",
+            "pantera-capital-portfolio",
+            "multicoin-capital-portfolio",
+            "paradigm-xzy-screener"
+          ],
+          "max_supply": 21000000,
+          "circulating_supply": 18713306,
+          "total_supply": 18713306,
+          "platform": null,
+          "cmc_rank": 1,
+          "last_updated": "2021-05-19T01:26:02.000Z",
+          "quote": {
+            "USD": {
+              "price": 41700.91959962216,
+              "volume_24h": 55143062338.14706,
+              "percent_change_1h": -3.65022687,
+              "percent_change_24h": -7.55522186,
+              "percent_change_7d": -26.98490442,
+              "percent_change_30d": -26.76361884,
+              "percent_change_60d": -29.20306863,
+              "percent_change_90d": -20.11106293,
+              "market_cap": 780362068949.127,
+              "last_updated": "2021-05-19T01:26:02.000Z"
+            }
+          }
+        },
+        {
+          "id": 1027,
+          "name": "Ethereum",
+          "symbol": "ETH",
+          "slug": "ethereum",
+          "num_market_pairs": 5895,
+          "date_added": "2015-08-07T00:00:00.000Z",
+          "tags": [
+            "mineable",
+            "pow",
+            "smart-contracts",
+            "ethereum",
+            "coinbase-ventures-portfolio",
+            "three-arrows-capital-portfolio",
+            "polychain-capital-portfolio",
+            "binance-labs-portfolio",
+            "arrington-xrp-capital",
+            "blockchain-capital-portfolio",
+            "boostvc-portfolio",
+            "cms-holdings-portfolio",
+            "dcg-portfolio",
+            "dragonfly-capital-portfolio",
+            "electric-capital-portfolio",
+            "fabric-ventures-portfolio",
+            "framework-ventures",
+            "hashkey-capital-portfolio",
+            "kinetic-capital",
+            "huobi-capital",
+            "alameda-research-portfolio",
+            "a16z-portfolio",
+            "1confirmation-portfolio",
+            "winklevoss-capital",
+            "usv-portfolio",
+            "placeholder-ventures-portfolio",
+            "pantera-capital-portfolio",
+            "multicoin-capital-portfolio",
+            "paradigm-xzy-screener"
+          ],
+          "max_supply": null,
+          "circulating_supply": 115930774.3115,
+          "total_supply": 115930774.3115,
+          "platform": null,
+          "cmc_rank": 2,
+          "last_updated": "2021-05-19T01:26:02.000Z",
+          "quote": {
+            "USD": {
+              "price": 3269.6739538063925,
+              "volume_24h": 39294003147.92677,
+              "percent_change_1h": -4.49308838,
+              "percent_change_24h": -3.74333122,
+              "percent_change_7d": -21.57452226,
+              "percent_change_30d": 44.80266328,
+              "percent_change_60d": 78.92027975,
+              "percent_change_90d": 72.48099074,
+              "market_cap": 379055833210.91876,
+              "last_updated": "2021-05-19T01:26:02.000Z"
+            }
+          }
+        },
+      ],
+    },
+  ),
+  200,
+);

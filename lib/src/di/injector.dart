@@ -1,8 +1,8 @@
 import 'package:bloc/bloc.dart';
 import 'package:clock/clock.dart';
-import 'package:crypto_currency/src/data/api/coin_market_cap_api_key_provider.dart';
-import 'package:crypto_currency/src/data/api/coin_market_cap_asset_api_key_provider.dart';
-import 'package:crypto_currency/src/data/api/coin_market_cap_data_source.dart';
+import 'package:crypto_currency/src/data/api/coin_market_cap/coin_market_cap_api_key_provider.dart';
+import 'package:crypto_currency/src/data/api/coin_market_cap/coin_market_cap_asset_api_key_provider.dart';
+import 'package:crypto_currency/src/data/api/coin_market_cap/coin_market_cap_data_source.dart';
 import 'package:crypto_currency/src/data/cache/cache_policy.dart';
 import 'package:crypto_currency/src/data/cache/cache_time_policy.dart';
 import 'package:crypto_currency/src/data/db/crypto_currency_in_memory_dao.dart';

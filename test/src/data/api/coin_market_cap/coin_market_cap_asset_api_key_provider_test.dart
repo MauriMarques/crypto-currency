@@ -1,5 +1,5 @@
-import 'package:crypto_currency/src/data/api/coin_market_cap_api_key_provider.dart';
-import 'package:crypto_currency/src/data/api/coin_market_cap_asset_api_key_provider.dart';
+import 'package:crypto_currency/src/data/api/coin_market_cap/coin_market_cap_api_key_provider.dart';
+import 'package:crypto_currency/src/data/api/coin_market_cap/coin_market_cap_asset_api_key_provider.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
